@@ -1,0 +1,9 @@
+n = 55
+fibonacci_num = [1, 1]
+counter = 0
+
+while counter < n:
+    counter = fibonacci_num[-1] + fibonacci_num[-2]
+    fibonacci_num.append(counter)
+    
+print(fibonacci_num)
